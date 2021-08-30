@@ -1,0 +1,9 @@
+.vermelho{
+    height: 50vh;
+    background-color: #c21818;
+    color: #fff;
+}
+
+.vermelho h1{
+    margin: 0;
+}

@@ -1,11 +1,19 @@
 export default function Jsx() {
-    const a = 1
-    const b = 3
-    console.log(a+b)
+
+    const titulo = <h1>JSX é um conceito central</h1>
+
+    function subtitulo() {
+        return <h2>{"muito legal".toUpperCase()}</h2>
+    }
+
     return (
         <div>
-            <h1>JSX é um conceito central</h1>
-            {a+b}
+            {titulo}
+            {subtitulo()}
+
+            <p>
+                {JSON.stringify({nome: "Kaic", idade:"19"})}
+            </p>
         </div>
     )
 }
